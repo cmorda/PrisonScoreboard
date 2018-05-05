@@ -47,7 +47,7 @@ board:
     update: 20
   '2':
     content:
-      - '&b&l%essentials_nickname%'                '
+      - '&b&l%essentials_nickname%'
     update: 1000
   '3':
     content:
