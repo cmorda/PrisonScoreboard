@@ -20,59 +20,64 @@ board:
     # Animatables will change the line every few ticks (specified by the 'update field')
     # this way you can animate each line just the way you wan't it to.
     content:
-      - '&4> &c&lScoreboard &4<'
-      - '&4> &c&lcoreboar &4<'
-      - '&4> &c&loreboa &4<'
-      - '&4> &c&leb &4<'
-      - '&4> &4<'
-      - '&4> &c&leb &4<'
-      - '&4> &c&loreboa &4<'
-      - '&4> &c&lcoreboar &4<'
-      - '&4> &4&lScoreboard &4<'
-      - '&4> &c&lScoreboard &4<'
-      - '&4> &4&lScoreboard &4<'
-      - '&4> &c&lScoreboard &4<'
-      - '&4> &4&lScoreboard &4<'
-      - '&4> &c&lScoreboard &4<'
-      - '&4> &c&lScoreboard &4<'
-      - '&4> &c&lScoreboard &4<'
+      - '&a> &b&lLionheart Prison &a<'
+      - '&a> &b&lionheart Priso &a<'
+      - '&4> &b&lonheart Pris &4<'
+      - '&4> &b&lnheart Pri &4<'
+      - '&4> &b&lheart Pr &4<'
+      - '&4> &b&leart P &4<'
+      - '&4> &b&lart &4<'
+      - '&4> &b&lr &4<'
+      - '&4> &b&lart &4<'
+      - '&4> &b&leart P &4<'
+      - '&4> &b&lheart Pr &4<'
+      - '&4> &b&lnheart Pri &4<'
+      - '&4> &b&lonheart Pris &4<'
+      - '&a> &b&lionheart Priso &a<'
+      - '&a> &b&lLionheart Prison &a<'
+      - '&4> &a&lLionheart Prison &4<'
+      - '&4> &b&lLionheart Prison &4<'
+      - '&4> &a&lLionheart Prison &4<'
+      - '&4> &b&lLionheart Prison &4<'
+      - '&4> &a&lLionheart Prison &4<'
+      - '&4> &b&lLionheart Prison &4<'
+      - '&4> &a&lLionheart Prison &4<'
+      - '&4> &b&lLionheart Prison &4<'
     # 1 second equals 20 ticks
-    update: 3
+    update: 20
   '2':
     content:
-      - '                '
+      - '&b&l%essentials_nickname%'                '
     update: 1000
   '3':
     content:
-      - '&c&lAuthor'
-      - '&c&lYour name'
-    update: 120
+      - '&b&lRank:'
+    update: 1000
   '4':
     content:
-      - ' HelloitsRien'
-      - ' %player_name%'
+      - '%vault_rank%'
     update: 120
   '5':
     content:
-      - ''
+      - '&b&lBalance:'
     update: 1000
   '6':
     content:
-      - '&c&lPing'
+      - '%vault_eco_balance%'
     update: 1000
   '7':
     content:
-      - ' %player_ping% ms'
+      - '&b&lBlocks Mined:'
     update: 3
   '8':
     content:
-      - ''
+      - '%statistic_mine_block%'
     update: 1000
   '9':
     content:
-      - '&c&lUptime'
+      - '&b&lTime Played:'
     update: 1000
   '10':
     content:
-      - ' %server_uptime%'
+      - '%statistic_time_played%'
     update: 1000
