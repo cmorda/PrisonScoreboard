@@ -47,8 +47,8 @@ board:
   '7':
     content:
       - '&b&lBlocks Mined:'
-      - '&b&lMcmmo mining level:'
-      - '&b&lMcmmo woodcutting level:'
+      - '&b&lMining level:'
+      - '&b&lWoodcutting level:'
     update: 100
   '8':
     content:
