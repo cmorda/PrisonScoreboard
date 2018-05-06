@@ -21,33 +21,12 @@ board:
     # this way you can animate each line just the way you wan't it to.
     content:
       - '&a> &b&lLionheart Prison &a<'
-      - '&a> &b&lionheart Priso &a<'
-      - '&a> &b&lonheart Pris &4<'
-      - '&a> &b&lnheart Pri &4<'
-      - '&a> &b&lheart Pr &4<'
-      - '&a> &b&leart P &4<'
-      - '&a> &b&lart &4<'
-      - '&a> &b&lr &4<'
-      - '&a> &b&lart &4<'
-      - '&a> &b&leart P &4<'
-      - '&a> &b&lheart Pr &4<'
-      - '&a> &b&lnheart Pri &4<'
-      - '&a> &b&lonheart Pris &4<'
-      - '&a> &b&lionheart Priso &a<'
-      - '&a> &b&lLionheart Prison &a<'
-      - '&a> &a&lLionheart Prison &4<'
-      - '&a> &b&lLionheart Prison &4<'
-      - '&a> &a&lLionheart Prison &4<'
-      - '&a> &b&lLionheart Prison &4<'
-      - '&a> &a&lLionheart Prison &4<'
-      - '&a> &b&lLionheart Prison &4<'
-      - '&a> &a&lLionheart Prison &4<'
-      - '&a> &b&lLionheart Prison &4<'
+      - '&b> &a&lLionheart Prison &b<'
     # 1 second equals 20 ticks
     update: 20
   '2':
     content:
-      - '&b&l%essentials_nickname%'
+      - '&l%player_name%'
     update: 1000
   '3':
     content:
@@ -63,16 +42,20 @@ board:
     update: 1000
   '6':
     content:
-      - '%vault_eco_balance%'
+      - '%vault_eco_balance_formatted%'
     update: 1000
   '7':
     content:
       - '&b&lBlocks Mined:'
-    update: 1000
+      - '&b&lMcmmo mining level:'
+      - '&b&lMcmmo woodcutting level:'
+    update: 100
   '8':
     content:
       - '%statistic_mine_block%'
-    update: 20
+      - '%mcmmo_level_mining%'
+      - '%mcmmo_level_woodcutting%'
+    update: 100
   '9':
     content:
       - '&b&lTime Played:'
