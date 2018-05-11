@@ -49,13 +49,15 @@ board:
       - '&b&lBlocks Mined:'
       - '&b&lMining level:'
       - '&b&lWoodcutting level:'
-    update: 100
+      - '&b&lEaster Eggs left:'
+    update: 200
   '8':
     content:
       - '%statistic_mine_block%'
       - '%mcmmo_level_mining%'
       - '%mcmmo_level_woodcutting%'
-    update: 100
+      - '%blockquest_blocksleft%'
+    update: 200
   '9':
     content:
       - '&b&lTime Played:'
